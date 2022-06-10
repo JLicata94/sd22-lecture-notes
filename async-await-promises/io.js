@@ -69,15 +69,17 @@ function getPorsche(winnersName) {
 
 // import { stdin, stdout } from "node:process"
 
-process.stdin.on("data", (input) => {
+//process.stdin.on("data", (input) => {
     // Writeable Stream (O) of IO
-    process.stdout.write(`This is the input: ${input.toString()}`)
-})
+    //process.stdout.write(`This is the input: ${input.toString()}`)
+//})
 
-process.stdin.on("end", () => {
-    process.stdout.write("Fires only during graceful end.")
-})
+// process.stdin.on("end", () => {
+//     process.stdout.write("Fires only during graceful end.")
+// })
 
-process.stdin.on("data",  (input) =>  {
-    process.stdout.write("The data")
-})
+// process.stdin.on("data",  (input) =>  {
+//     process.stdout.write("The data")
+// })
+
+
